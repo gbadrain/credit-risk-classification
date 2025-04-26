@@ -33,12 +33,15 @@ The results of the logistic regression model are as follows:
 - **Recall**:
     - Class 0 (healthy loans): **99%**
     - Class 1 (high-risk loans): **91%**
+      
+<img width="429" alt="Screenshot 2025-04-26 at 11 59 48 AM" src="https://github.com/user-attachments/assets/729101d9-d7a6-409f-af34-a1b6f89ab8cd" />
 
 ## Summary
 
 The logistic regression model demonstrates excellent overall performance, achieving a **99% accuracy score**. It is highly effective at predicting **healthy loans (Class 0)** with a **100% precision** and **99% recall**, meaning it rarely misclassifies healthy loans. For **high-risk loans (Class 1)**, the model provides strong predictions with **85% precision** and **91% recall**, although slightly less accurate than for healthy loans.
 
 The lower performance in predicting high-risk loans can be attributed to the imbalanced dataset, where Class 1 has significantly fewer instances **(619)** compared to Class 0 **(18,765).** This imbalance affects the model's ability to achieve equal performance across both classes.
+
 
 ### Recommendation:
 This model is recommended for use by the company due to its high accuracy and strong performance overall. However, improvements could be made by addressing the data imbalance, such as:
